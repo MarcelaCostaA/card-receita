@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Young+Serif&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Recipe page</title>
+</head>
+
+<body>
+
+  <main class="main">
+    <section class="receita">
+
+      <!-- Artigo 1 | Fotografia da Receita -->
+      <article class="receita__artigo--sem-borda">
+        <img src="assets/images/image-omelette-4.jpg" alt="Fotografia de Omelete" class="receita__imagem" title="Fotografia de Omelete">
+      </article>
+
+      <!-- Artigo 2 | Título e Descrição da Receita -->
+      <article class="receita__artigo--sem-borda">
+        <h1 class="receita__titulo">Receita de Omelete Simples</h1>
+
+        <p class="receita__paragrafo">Um prato fácil e rápido, perfeito para qualquer refeição. Esta omelete clássica combina ovos com perfeição e pode ser recheada com queijo, vegetais ou frios de sua escolha.</p>
+      </article>
+
+      <!-- Artigo 3 | Tempo de Preparo da Receita -->
+      <article class="receita__artigo--var">
+        <h3 class="receita__subtitulo--var">Tempo de Preparo</h3>
+        <ul class="receita__lista--var">
+          <li class="receita__li--var"><strong class="receita__bold">Total:</strong> aproximadamente 10 minutos</li>
+          <li class="receita__li--var"><strong class="receita__bold">Preparação:</strong> 5 minutos</li>
+          <li class="receita__li--var"><strong class="receita__bold">Cocção:</strong> 5 minutos</li>
+        </ul>
+      </article>
+
+      <!-- Artigo 4 | Lista de Ingredientes da Receita -->
+      <article class="receita__artigo">
+        <h2 class="receita__subtitulo">Ingredientes</h2>
+
+        <ul class="receita__lista">
+          <li class="receita__li">2-3 ovos grandes</li>
+          <li class="receita__li">Sal a gosto</li>
+          <li class="receita__li">Pimenta a gosto</li>
+          <li class="receita__li">1 colher de sopa de manteiga ou óleo vegetal</li>
+          <li class="receita__li">Recheios opcionais: queijo, vegetais picados, frios, ervas, cogumelos grelhados</li>
+        </ul>
+      </article>
+
+      <!-- Artigo 5 | Instruções de Preparo da Receita -->
+      <article class="receita__artigo">
+        <h2 class="receita__subtitulo">Instruções</h2>
+
+        <ol class="receita__lista--numerada">
+          <li class="receita__li--numerada"><strong class="receita__bold">Bata os ovos:</strong> Numa tigela, bata os ovos com uma pitada de sal e pimenta até ficarem bem misturados. Você pode adicionar uma colher de sopa de água ou leite para obter uma textura mais fofa.</li>
+  
+          <li class="receita__li--numerada"><strong class="receita__bold">Aqueça a panela:</strong> Coloque uma frigideira antiaderente em fogo médio e adicione manteiga ou óleo.</li>
+  
+          <li class="receita__li--numerada"><strong class="receita__bold">Cozinhe a omelete:</strong>Assim que a manteiga derreter e borbulhar, coloque os ovos. Incline a panela para garantir os ovos cobrem uniformemente a superfície.</li>
+
+          <li class="receita__li--numerada"><strong class="receita__bold">Adicione recheios (opcional):</strong> Quando os ovos começarem a endurecer nas bordas, mas ainda estiverem um pouco escorrendo no meio, polvilhe os recheios escolhidos sobre metade da omelete.</li>
+
+          <li class="receita__li--numerada"><strong class="receita__bold">Dobre e sirva:</strong> Enquanto a omelete continua cozinhando, levante cuidadosamente uma das pontas e dobre-a sobre o   recheio. Deixe cozinhar por mais um minuto e depois coloque-a em um prato.</li>
+
+          <li class="receita__li--numerada"><strong class="receita__bold">Aproveite:</strong> Sirva quente, com mais sal e pimenta se necessário.</li>
+        </ol>
+      </article> 
+      
+      <!-- Artigo 6 | Dados Nutricionais da Receita -->
+      <article class="receita__artigo">
+        <h2 class="receita__subtitulo">Dados Nutricionais</h2>
+
+        <p class="receita__paragrafo--tab">A tabela abaixo mostra os valores nutricionais por porção sem recheios adicionais.</p>
+
+        <table class="receita__tabela">
+          <tr class="receita__tr">
+            <th class="receita__th">Calorias</th>
+            <td class="receita__td">277cal</td>
+          </tr>
+          <tr class="receita__tr">
+            <th class="receita__th">Carboidratos</th>
+            <td class="receita__td">0gr</td>
+          </tr>
+          <tr class="receita__tr">
+            <th class="receita__th">Proteínas</th>
+            <td class="receita__td">20gr</td>
+          </tr>
+          <tr class="receita__tr">
+            <th class="receita__th">Gorduras</th>
+            <td class="receita__td">22gr</td>
+          </tr>
+        </table>
+
+      </article>
+
+
+     
+    </section>
+  </main>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  -->
+
+</body>
+</html>
