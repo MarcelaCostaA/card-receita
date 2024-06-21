@@ -18,7 +18,7 @@
 
 ### Link GitPage
 
-- Solution URL: [Cartão de Receita](https://github.com/MarcelaCostaA/card-receita.git)
+- GitPage: [Cartão de Receita](https://marcelacostaa.github.io/card-receita/)
 
 
 ### Construído Com
